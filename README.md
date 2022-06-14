@@ -27,27 +27,35 @@ Linear regression is a great method to determine the strength of predictors. In 
 * Homoscedasticity - variance or the errors is the same
 
 Checking for linearity between features and sales price.
+
 ![graph1](./images/scatter.png)
 
 Categorical varaibles can be checked with boxplots. sqft_living, grade, bathrooms, view, bedrooms, basement, and condition show to have a linear relation ship with sales price.
+
 ![graph2](./images/boxplot.png)
 
 Overlaying house sales on map shows location has an effect on sales price as well.
+
 ![graph3](./images/map.png)
 
 Checking predictors for multicollinearity with a heatmap of correlation matrix.
+
 ![graph4](./images/correlation_matrix.png)
 
 Baseline model with the 2 highest correlated predictors. Results show that the regression equation was found to be statistically significant with p-value of the F stat at 0 and a R^2 value of 0.485. 
+
 ![graph5](./images/baseline.png)
 
 Checking for residual normality and homoscedasticity with QQplot and scatterplot. Baseline model shows that these 2 assumptions are not fulfilled. 
+
 ![graph6](./images/blog.png)
 
 Log transformation of the dependent variable price and sqft_living will help satisfy these 2 assumptions.
+
 ![graph6](./images/alog.png)
 
 Final model results with all predictors we have selected.
+
 ![graph6](./images/regression_results.png)
 
 ## Conclusions
@@ -65,7 +73,7 @@ Final model results with all predictors we have selected.
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) or our [presentation](./Movie-Analysis-Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./king-county-regression-analysis.ipynb) or our [presentation](./king-county-Presentation .pdf).
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
@@ -73,8 +81,8 @@ For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.co
 
 ```
 ├── README.md                           
-├── Microsoft-Movie-Analysis.ipynb
-├── Movie-Analysis-Presentation .pdf        
+├── king-county-regression-analysis.ipynb
+├── king-county-Presentation .pdf        
 ├── data                                
 └── images                              
 ```
