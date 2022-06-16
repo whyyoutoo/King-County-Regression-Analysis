@@ -79,7 +79,7 @@ Final model results with all predictors we have selected. Show location, buildin
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./king-county-regression-analysis.ipynb) or our [presentation](./king-county-Presentation .pdf).
+Please review our full analysis in [our Jupyter Notebook](./king-county-regression-analysis.ipynb) or our [presentation](./king-county-Presentation.pdf).
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
