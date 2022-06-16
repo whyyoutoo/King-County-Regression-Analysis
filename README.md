@@ -54,22 +54,28 @@ Log transformation of the dependent variable price and sqft_living will help sat
 
 ![graph6](./images/alog.png)
 
-Final model results with all predictors we have selected.
+Final model results with all predictors we have selected. Show location, building grade, buidling condition, and sqft_living to have the strongest relationship with the sale price of a house.
+
 
 ![graph6](./images/regression_results.png)
 
 ## Conclusions
 
-- __Location, location, location__ Our final model showed that the biggest factor in house prices are location. results from analysis show as you move futher south(away) from Seattle, prices for a house with similar features decrease.
+
+
+- __Location, location, location__ Our final model showed that the biggest factor in house prices are location. results from analysis show as you move further away from Seattle, prices for a house with similar features decrease.
 
 - __House Quality__ Aside from location, the next biggest factor in house prices are the condition and grade of the property.
 
 - __House Features__ More rooms do not increase the price of a house if it does not increase livable sq footage.
 
+ 
+## Next Steps
 
+- __Limitations__ House prices can be subjective, certain people may be more willing to pay more than others for a specific house. Additional data can be introduced to see if there is a relationship between different types of buyers and house prices.
 
-- __More Data.__  
-- __Other markets.__ In this analysis we only looked at worldwide box office gross as the deciding factor to success. With the growth of streaming services, we can look at these other forms of revenue to help with decision making.
+- __Timing__ Purchasing a house is a big investment, we can examine mortgage interest rates to see if lower interest rates effect house prices.
+
 
 ## For More Information
 
