@@ -88,7 +88,7 @@ For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.co
 ```
 ├── README.md                           
 ├── king-county-regression-analysis.ipynb
-├── king-county-Presentation .pdf        
+├── king-county-Presentation.pdf        
 ├── data                                
 └── images                              
 ```
